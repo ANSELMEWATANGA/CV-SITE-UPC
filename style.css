@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'releway', sans-serif;
+}
+a {
+    text-decoration: 0;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 9%;
+}
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #ccc;
+}
+body{
+    background-color: black;
+}
+section{
+    margin-top: 50px;
+}
+header{
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+    padding: 0 5%;
+}
+header .logo a {
+    font-size: 30px;
+    color: red;
+    font-weight: 39px;
+}
+header .logo a span {
+    color: white;
+}
+.menu{
+    display: flex;
+    align-items: center;
+
+}
+.menu li {
+    margin: 0 15px;
+    list-style-type: none;
+}
+.menu li a {
+    color: #fff;
+    font-size: 19px;
+}
+.bnt-reservation{
+    color: #29d9d5;
+    font-size: 14px;
+    border: 2px solid #29d9d5;
+    padding: 5px 20px;
+    transition: 0.5s;
+}
+.bnt-reservation:hover {
+    background-color: #29d9d5;
+    color: #fff;
+}
+/* Homme acceuil CSS */
+
+#home {
+    background: linear-gradient(rgb(15, 5, 20), rgba(0, 0, 0, 0.0)),  url("Image/membre.jpeg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+#home h4{
+    font-size: 45px;
+    margin-bottom: 10px;
+    -webkit-text-stroke: #000 0.02px;
+   color: red;
+   text-transform: uppercase;
+}
+#home h1{
+    font-size: 50px;
+    color: #fff;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+#home p {
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 21px;
+    font-family: 'releway', serif;
+    padding: 16px;
+    text-align: center;
+    margin-top: 26px;
+    font-weight: 24px;
+}
